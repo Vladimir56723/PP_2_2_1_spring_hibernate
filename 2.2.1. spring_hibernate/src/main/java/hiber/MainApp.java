@@ -32,7 +32,8 @@ public class MainApp {
             System.out.println();
         }
 
-
+// pom.xml поменчл все до последней версии перед пушем все пораснело вернул с проверки переделал под
+     //   старую версию сейчас вроде работает  (5 вер -persistence, а в 6вер уже какая то jakarta)
         userService.getUser();
         List<User> usersCar = userService.getUser();
         for (User user : usersCar) {
